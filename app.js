@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   introTitle.textContent = 'Welcome to The Browser Game';
   inputPrompt.textContent = 'What is your name?'
   answerButton.classList.add('response-btn');
-  answerButton.textContent = "Enter";
+  answerButton.textContent = "Start";
 
   setTimeout(() => {
     display.appendChild(introTitle);
@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const avoidButton = document.createElement('button');
     const trainButton = document.createElement('button');
     const responseButtons = [leftButton, middleButton, rightButton, fightButton, avoidButton, trainButton];
-
 
     leftButton.addEventListener('click', () => {
       display.textContent = 'You picked the grassy fighter, Trunkstomp';

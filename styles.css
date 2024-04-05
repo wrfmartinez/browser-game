@@ -6,32 +6,42 @@ body {
   align-items: center;
   margin: 0;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background: url('https://cdn.openart.ai/stable_diffusion/5408bd89f3c69b52f2654db84ed16dba4b8ebf00_2000x2000.webp');
   background-size: cover;
   color: #ffffff;
+  text-shadow: #f0eaa2 1px 0 10px;
 }
 
 h1 {
-  margin: -300px 0px 0px 0px;
+  margin: 0;
   text-align: center;
-  font-size: 150px;
+  font-size: 3em;
 }
 
-button {
-  margin-bottom: 15px;
+button.response-btn {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #5dbe75;
+  margin: 15px 0;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
 }
 
 input {
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
   padding: 10px 20px;
+  margin: 13px 0 50px 0;
+
 }
 
 p {
-  margin-top: 500px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 #display {
-  font-size: 25px;
+  font-size: 30px;
+  margin: 0 100px;
 }
